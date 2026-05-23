@@ -8,7 +8,7 @@ A curated list of professional open-source repositories for AI-driven developmen
 
 ## What's On This List
 
-Every repo here is chosen because it makes AI-driven development more professional, more reliable, or more scalable. No fluff. No toy demos. Just open-source tools and patterns that working engineers actually use.
+Every repo here is chosen because it has real engineering behind it: active maintenance, genuine community use, and authors with a track record. No astroturf, no vaporware, no toy demos.
 
 The list is organized by **how you work with AI**:
 
@@ -26,12 +26,12 @@ The list is organized by **how you work with AI**:
 
 | Repo | Author | What It Does |
 |------|--------|--------------|
-| [Aider](https://github.com/Aider-AI/aider) | [Aider-AI](https://github.com/Aider-AI) | AI pair programming in your terminal. Edit files, run tests, commit — all with natural language. |
+| [Aider](https://github.com/Aider-AI/aider) | [Aider-AI](https://github.com/Aider-AI) | AI pair programming in your terminal. Edit files, run tests, commit — all with natural language. The most mature tool in this category. |
+| [Continue](https://github.com/continuedev/continue) | [Continue Dev](https://github.com/continuedev) | Open-source autopilot for VS Code and JetBrains. Bring your own API key. Full control over context and prompts. |
 | [mattpocock/skills](https://github.com/mattpocock/skills) | [Matt Pocock](https://github.com/mattpocock) | Small, composable agent skills for grilling, TDD, diagnosis, and handoffs. Human-in-the-loop by design. |
-| [mattpocock/dictionary-of-ai-coding](https://github.com/mattpocock/dictionary-of-ai-coding) | [Matt Pocock](https://github.com/mattpocock) | Plain-English glossary of AI coding terms. Stops you from guessing what "prefix cache" means. |
-| [roebi/aider-skills](https://github.com/roebi/aider-skills) | [roebi](https://github.com/roebi) | Inject structured skills into Aider sessions without changing Aider itself. |
+| [mattpocock/dictionary-of-ai-coding](https://github.com/mattpocock/dictionary-of-ai-coding) | [Matt Pocock](https://github.com/mattpocock) | Plain-English glossary of AI coding terms. Stops you from guessing what "prefix cache" or "attention degradation" means. |
 
-**What to add here:** Terminal-based pair programmers, inline assistants, human-in-the-loop frameworks, diff-review tools, and anything that keeps the human as the final gate.
+**What to add here:** Terminal-based pair programmers, IDE extensions with full prompt transparency, diff-review tools, and anything that keeps the human as the final gate.
 
 ---
 
@@ -41,14 +41,11 @@ The list is organized by **how you work with AI**:
 
 | Repo | Author | What It Does |
 |------|--------|--------------|
-| [kodustech/awesome-agent-skills](https://github.com/kodustech/awesome-agent-skills) | [Kodus](https://github.com/kodustech) | Curated installable skills for Claude Code, Codex, Cursor. |
-| [EliFuzz/awesome-system-prompts](https://github.com/EliFuzz/awesome-system-prompts) | [EliFuzz](https://github.com/EliFuzz) | System prompts and tool definitions from Claude Code, Cursor, Codex, Devin, and more. |
-| [stulyf/coding_agent-prompts](https://github.com/stulyf/coding_agent-prompts) | [stulyf](https://github.com/stulyf) | Prompt patterns for context compression, multi-agent coordination, memory management. |
-| [florian101010/awesome-agentic-AI-coding-template](https://github.com/florian101010/awesome-agentic-AI-coding-template) | [florian101010](https://github.com/florian101010) | Pre-wired project template with skills system, workflows, and Git hooks. |
-| [matteocervelli/llms](https://github.com/matteocervelli/llms) | [Matteo Cervelli](https://github.com/matteocervelli) | Centralized LLM config, skills, commands, agents, and MCP server tooling. |
-| [kevin-lee/ai-skills](https://github.com/kevin-lee/ai-skills) | [Kevin Lee](https://github.com/kevin-lee) | Native CLI for managing reusable prompt skills across projects. |
+| [kodustech/awesome-agent-skills](https://github.com/kodustech/awesome-agent-skills) | [Kodus](https://github.com/kodustech) | Curated installable skills for Claude Code, Codex, Cursor. Maintained by a devtools company with real customers. |
+| [EliFuzz/awesome-system-prompts](https://github.com/EliFuzz/awesome-system-prompts) | [EliFuzz](https://github.com/EliFuzz) | System prompts and tool definitions extracted from Claude Code, Cursor, Codex, Devin, and more. Useful for understanding how agents are wired. |
+| [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook) | [Anthropic](https://github.com/anthropics) | Official recipes from Anthropic. Agents, RAG, tool use, structured output, evaluation — all from the source. |
 
-**What to add here:** Skill collections, project templates, prompt pattern libraries, system prompt references, and context-management tools.
+**What to add here:** Official cookbooks, well-maintained skill collections, prompt pattern libraries from authors with a track record, and context-management tools with real usage.
 
 ---
 
@@ -58,15 +55,11 @@ The list is organized by **how you work with AI**:
 
 | Repo | Author | What It Does |
 |------|--------|--------------|
-| [mattpocock/sandcastle](https://github.com/mattpocock/sandcastle) | [Matt Pocock](https://github.com/mattpocock) | Orchestrate sandboxed coding agents in TypeScript with `sandcastle.run()`. The entry point for fully autonomous workflows. |
-| [PraisonAI](https://github.com/MervinPraison/PraisonAI) | [Mervin Praison](https://github.com/MervinPraison) | 24/7 AI workforce. Self-improving agents that research, plan, code, and execute. |
-| [kelos](https://github.com/kelos-dev/kelos) | [Kelos](https://github.com/kelos-dev) | Kubernetes-native framework for orchestrating autonomous AI coding agents. |
-| [swarmclaw](https://github.com/swarmclawai/swarmclaw) | [Swarmclaw AI](https://github.com/swarmclawai) | Multi-agent framework for autonomous agent swarms. Memory, MCP tools, delegation, schedules. |
-| [AgentManager](https://github.com/simonstaton/AgentManager) | [Simon Staton](https://github.com/simonstaton) | Conduct autonomous Claude Code agents at scale with kill switches and cost tracking. |
-| [aiki](https://github.com/glasner/aiki) | [glasner](https://github.com/glasner) | Agent-agnostic framework for building autonomous coding workflows. |
-| [arc-cli](https://github.com/Ashutosh0x/arc-cli) | [Ashutosh0x](https://github.com/Ashutosh0x) | High-performance agentic CLI in Rust for autonomous multi-agent code generation. |
+| [mattpocock/sandcastle](https://github.com/mattpocock/sandcastle) | [Matt Pocock](https://github.com/mattpocock) | Orchestrate sandboxed coding agents in TypeScript with `sandcastle.run()`. Designed for fully autonomous workflows with guardrails. |
+| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | [All Hands AI](https://github.com/All-Hands-AI) | Open-source autonomous coding agent (formerly OpenDevin). Runs in a sandbox, plans, writes code, and submits PRs. Active research community. |
+| [gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | [Anton Osika](https://github.com/AntonOsika) | Specify what you want it to build. The AI asks clarifying questions and then builds it. Precursor to Lovable.dev. |
 
-**What to add here:** Multi-agent orchestrators, sandboxed runtimes, autonomous deployment pipelines, AFK frameworks, and anything that removes the human from the loop by design.
+**What to add here:** Sandboxed runtimes, autonomous deployment pipelines, multi-agent orchestrators with real research or production usage, and anything that removes the human from the loop by design — but only if it has a community behind it.
 
 ---
 
@@ -106,7 +99,7 @@ Found a repo that belongs here? Open a PR with:
 2. The author's GitHub username or org
 3. Which workflow section it belongs in (Hands-On, Balanced, or Autonomous)
 4. Confirmation that it's open-source (MIT, Apache-2.0, GPL, or similar)
-5. Why it's professional-grade, not a toy demo
+5. Evidence of real usage: stars, active maintenance, or a known author
 
 ---
 
