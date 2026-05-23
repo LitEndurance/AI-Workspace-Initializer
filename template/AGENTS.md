@@ -15,6 +15,7 @@ This is `[FILL: project name]` — a `[FILL: one-line description]`.
 - `[FILL: naming convention, e.g. kebab-case files, PascalCase components]`
 - `[FILL: testing convention, e.g. colocate tests, minimum coverage]`
 - `[FILL: other project-specific rules]`
+- Git hooks are active via `.githooks/` — run `./scripts/setup-hooks.sh` if not already configured
 
 ## Context Pointers
 

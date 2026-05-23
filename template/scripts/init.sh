@@ -18,11 +18,17 @@ cd "$PROJECT_NAME"
 sed -i.bak "s/\[FILL: project name\]/$PROJECT_NAME/g" AGENTS.md 2>/dev/null || true
 rm -f AGENTS.md.bak
 
+# Set up git hooks automatically
+if [ -d .githooks ]; then
+  git config core.hooksPath .githooks 2>/dev/null || true
+  chmod +x .githooks/* 2>/dev/null || true
+fi
+
 echo ""
 echo "Done. Next steps:"
 echo "  cd $PROJECT_NAME"
 echo "  git init"
+echo "  ./scripts/setup-hooks.sh   # ensure hooks are active"
 echo "  # Fill in the remaining [FILL] markers in AGENTS.md and docs/CONTEXT.md"
-echo "  # Add skills to workspace.json, then run: ./scripts/workspace sync"
 echo "  git add ."
 echo "  git commit -m 'init'"

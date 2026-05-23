@@ -70,7 +70,25 @@ This repo also includes a minimal workspace starter in [`/template`](./template)
 - `AGENTS.md` — standing brief for any agent that opens your repo
 - `docs/CONTEXT.md` — living domain glossary (ubiquitous language)
 - `docs/adr/` — architecture decision records
+- `.githooks/` — pre-commit and commit-msg hooks that catch common AI-coding mistakes
 - `scripts/workspace` — deduplicated skill manager (one global cache, many projects)
+- `scripts/setup-hooks.sh` — one-command hook activation
+
+### Git Hooks
+
+The template ships with pre-commit and commit-msg hooks that catch mistakes common in AI-driven development:
+
+- **Blocks unresolved `[FILL]` markers** — prevents committing template placeholders
+- **Blocks AI temporary markers** — catches `TODO(ai)`, `FIXME(ai)`, `HACK(ai)`
+- **Blocks large files** — prevents accidentally committing >5MB files
+- **Blocks trailing whitespace** — keeps diffs clean
+- **Blocks `.env` files** — prevents secret leakage
+- **Enforces descriptive commit messages** — no more `fix` or `wip`
+
+Activate them:
+```bash
+./scripts/setup-hooks.sh
+```
 
 ### Deduplicated Skill Management
 
